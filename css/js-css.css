@@ -1,0 +1,103 @@
+.backdrop{
+    width:100%;
+    height: 100%;
+    background: rgba(0, 0,0, 0.5);
+    z-index: 50;
+    position: fixed;
+    display:none;
+}
+
+.open{
+    display:block!important;
+}
+
+.cart-panel{
+   width:100%;
+    display:flex;
+    justify-content: flex-end;
+      background:#f3f0eb;
+    z-index: 60;
+    width:25%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    right:0;
+    padding-top:8rem;
+    padding-left:3rem;
+    padding-right: 5rem;
+    display:none;
+}
+
+.cart-inner{
+   
+}
+
+.cart-cross{
+    width:2rem;
+    position: absolute;
+    left: 80%;
+}
+
+
+.hambergur{
+    width:2rem;
+    height:2rem;
+    margin-bottom:5rem;
+    cursor: pointer;
+
+}
+
+.bar{
+    width:100%;
+    height: 1px;
+    background: black;
+    margin-bottom:5px;
+}
+
+/*search panel */
+
+.search-panel{
+    padding:5rem 3rem;
+    display:none;
+    z-index: 65;
+    position:absolute;
+    top:0;
+    left:0;
+    
+    width:100%;
+    background-color:rgba(228, 222, 222, 0.9);
+}
+
+.search-input{
+
+}
+
+.search-input a{
+    color:#333;
+    display:inline-block;
+    margin-right: 2rem;
+}
+
+.search-input input{
+    border:none;
+    background: transparent;
+    outline: none;
+}
+
+.search-input input:active,
+.search-input input:focus{
+    border:none;
+}
+
+
+
+.search-cross{
+   width: 2rem;
+   display:inline-block
+}
+.search-cross-container{
+    display:flex;
+    justify-content: flex-end;
+}
+
+
